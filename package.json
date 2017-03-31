@@ -1,7 +1,7 @@
 {
   "name": "nodejs",
   "version": "1.0.0",
-  "description": "https://coligo.io/building-ajax-file-uploader-with-node/",
+  "description": "https://coligo.io/building-ajax-file-uploader-with-node/got",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

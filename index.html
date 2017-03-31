@@ -11,8 +11,10 @@
 </head>
 <body>
     <form id="uploadForm" action="/api/photo" enctype="multipart/form-data" method="post">
-    <input type="file" name="userPhoto"/>
-    <input id="submit" type="submit" value="Upload Image" name="submit">
+        <input name="campaign[name]" type="text" value ="toto"/>
+        <input type="file" name="campaign[userPhoto]"/>
+        <input type="file" name="campaign[userPhoto2]"/>
+        <input id="btnSubmit" type="button" value="Upload Image" name="submit"/>
     </form>
     <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
